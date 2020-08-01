@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+![data science](https://user-images.githubusercontent.com/19977/61344565-8966da00-a806-11e9-9e6c-954a42102b36.png)
 
-You can use the [editor on GitHub](https://github.com/ahoaglandnu/election2020/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Understanding the 2020 Presidential Election Polls
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Quite a lot has been written about 2016 election forecasts, polls, and the [influence](https://www.dartmouth.edu/~seanjwestwood/papers/aggregator.pdf) they may have had on voter behavior. A good friend and I were also caught up in the [hype around forecast models](https://slate.com/news-and-politics/2016/11/how-will-we-know-if-nate-silver-was-right.html). 
 
-### Markdown
+This project is based off of the lessons learned from the 2016 and 2018 elections. The intent is to inform, not influence, the status of the presidential election.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### The Polls
 
-```markdown
-Syntax highlighted code block
+_Coming Soon_
 
-# Header 1
-## Header 2
-### Header 3
+### The Approach
 
-- Bulleted
-- List
+_Coming Soon_
 
-1. Numbered
-2. List
+### The Findings
 
-**Bold** and _Italic_ and `Code` text
+_Coming Soon_
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ahoaglandnu/election2020/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
