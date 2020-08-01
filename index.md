@@ -20,7 +20,7 @@ State polling data will come from [RealClearPolitics](https://www.realclearpolit
 
 Not all polls are of equal quality, but a simple average would treat them that way. Instead, I have two methods to weight the polls; by margin or error and by segment polled, specifically registered voters or likely voters. 
 
-A registered voter is someone who is simply registered to vote, while a likely voter is a registered voter who has indicated their intentio to vote in the election. Polling firms handle this determination differently, but you can read more about the segments [here](https://en.wikipedia.org/wiki/Voter_segments_in_political_polling). Since [voter turnout varies](https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html) from state to state, polls with likely voters are weighted 3 times higher than those with registered voters.
+A registered voter is someone who is simply registered to vote, while a likely voter is a registered voter who has indicated their intention to vote in the election. Polling firms handle this determination differently, but you can read more about the segments [here](https://en.wikipedia.org/wiki/Voter_segments_in_political_polling). Since [voter turnout varies](https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html) from state to state, polls with likely voters are weighted 3 times higher than those with registered voters.
 
 ```
 segment_weight = np.where(segment == 'LV',3,1)
@@ -35,7 +35,7 @@ candidate_weighted_average = (polls * MoE ranks * sum(segment_weight)) / sum(MoE
 
 We see these terms on a number of electoral college maps, but it may not be apparent as to why a state has such a label.
 
-One of the major issues with the 2016 election was that strong third party candidate performance led to a number of plurality leads; instances in which no candidate had a majority of 50%. The 2020 election year has a traditional two candidate race, meaning we will see majority victories. This is the foundation for the definitions.
+One of the major issues with the 2016 election was that strong third party candidate performance led to a number of plurality leads; instances in which no candidate had a majority of 50% or greater. The 2020 election year has a traditional two candidate race, meaning we will see majority victories. This is the foundation for the definitions of the labels below.
 
 **Safe State** is where a candidate has a majority _beyond_ the margin of error and all undecided votes going to the opponent does not change the outcome.
 
@@ -43,7 +43,7 @@ One of the major issues with the 2016 election was that strong third party candi
 
 **Leaning State** is where a candidate has a majority _within_ the margin of error and all undecided votes going to the opponent _can_ change the outcome.
 
-**Toss Up** is where _no_ candidate has a majority and a _combination_ of the margin of error and undecided votes _split between candidates_ changes the outcome.
+**Toss Up** is where _no_ candidate has a majority and a _combination_ of the margin of error and undecided votes _divided between candidates_ changes the outcome.
 
 **Margin of Error** 
 
@@ -53,25 +53,27 @@ Wyoming is the least populated state with around 600,000 residents. In 2016, the
 
 A population of 100,000,000 has similar sample size requirements, 784 and 1,537 respectively. As you look at polling coming in, you see sample sizes near 1,000 or if you average all the polling sample sizes of a state it is also near 1,000, thus a 3% margin of error for the weighted average of state polls.
 
+You can read more about sample sizes [here](https://www.research-advisors.com/tools/SampleSize.htm). The lookup table for required sample sizes is one I have used since grad school.
+
 **Monte Carlo Simulation for Probabilities**
 
-I know upfront I said we are not forecasting a winner and that is still the case. In order to make the state labels easier to understand, We take the weighted averages and 3% margin of error to determine the probability a candidate can win a state _without_ any undecided voter support. 
+I know upfront I said we are not forecasting a winner and that is still the case. In order to make the state labels easier to understand, we use the weighted averages and 3% margin of error to determine the probability a candidate can win a state _without_ any undecided voter support. 
 
-The margin of error gives us a range of what the actual number could be. For example, a candidate is polling at 50% with a 4% margin of error. That means the actual number would be within this range.
+The margin of error gives us a range of what the actual number could be. For example, let's say a candidate is polling at 50% with a 4% margin of error. That means the actual number would be within this range below.
 
 ![range of poll](https://raw.githubusercontent.com/ahoaglandnu/election/master/images/ex1.png)
 
+When we do the same for the competitor, then we can see who may be winning the race.
 A **Safe State** for a candidate would look like this
 
 ![safe](https://raw.githubusercontent.com/ahoaglandnu/election/master/images/ex12.png)
 
+Unfortunately, there are a number of races where the margin of error will overlap. 
 **Likely and Leaning States** are where we have our first potential area for misinterpretation
 
 ![confusion](https://raw.githubusercontent.com/ahoaglandnu/election/master/images/ex7.png)
 
-Would we say one candidate is in the lead? Is it safe to assume this will be the outcome? No.
-
-This is why we introduce random error within the range. Using a random number generator for each candidate, we can get a result like this.
+This is why we introduce random error within the range. Using a random number generator for each candidate, we can get a result from a simulation that looks like this below.
 
 ![single sim](https://raw.githubusercontent.com/ahoaglandnu/election/master/images/ex8.png)
 
