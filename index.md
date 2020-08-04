@@ -131,8 +131,27 @@ Another challenge in interpreting the data remains as the label for *Leaning* st
 
 # Results
 
-In order to inform and not influence, our next step involves an interactive component so the reader can see the impact of how undecided voters can change the outcome of state elections and ultimately, the electoral college.
+In order to inform and not influence, our next step involves an interactive component so the reader can see the impact of how undecided voters can change the outcome of state elections and ultimately, the electoral college. In the interim, I created the two graphics and table below.
 
-### The Findings
-_coming soon_
+**Last updated**: August 3, 2020
+
+### Strong and Likely States
+
+In the graphic below, we have states that are considered strong or likely states for the two candidates. If a state is considered leaning toward either candidate, then it is shaded as a toss up. The Cook Political Report and polling diverged for Florida, North Carolina, and Utah. For that reason, the states are displayed as toss ups. 
+
+![safe](https://www.270towin.com/map-images/xr2w1)
+
+
+### States where undecided voters are most likely to determine the outcome
+
+The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
+
+![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0804.png)
+
+
+### If all undecided voters are shy Trump supporters
+
+The graphic below assumes all undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
+
+![hidden](https://www.270towin.com/map-images/l7gdg)
 
