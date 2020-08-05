@@ -42,7 +42,7 @@ The graphic below assumes all undecided voters will vote for Trump. This scenari
 
 # The Approach
 
-**Weighted Averages**
+### Weighted Averages
 
 Not all polls are of equal quality, but a simple average would treat them that way. Instead, I have two methods to weight the polls; by margin or error and by segment polled, specifically registered voters or likely voters. 
 
@@ -57,7 +57,7 @@ Margin of error rises and falls depending on the population size, sample size, a
 ```
 candidate_weighted_average = (polls * MoE ranks * sum(segment_weight)) / sum(MoE ranks * sum(segment_weight))
 ```
-**Safe States, Likely States, and Leaning States**
+### Safe States, Likely States, and Leaning States
 
 We see these terms on a number of electoral college maps, but it may not be apparent as to why a state has such a label.
 
@@ -71,7 +71,7 @@ One of the major issues with the 2016 election was that strong third party candi
 
 **Toss Up** is where _no_ candidate has a majority and a _combination_ of the margin of error and undecided votes _divided between candidates_ changes the outcome.
 
-**Margin of Error** 
+### Margin of Error
 
 We are assuming a 3% margin of error for the weighted averages. _why assume a 3% margin of error?_ The simple answer is that it comes down to sample size based upon population size.
 
@@ -81,7 +81,7 @@ A population of 100,000,000 has similar sample size requirements, 784 and 1,537 
 
 You can read more about sample sizes [here](https://www.research-advisors.com/tools/SampleSize.htm). The lookup table for required sample sizes is one I have used since grad school.
 
-**Monte Carlo Simulation for Probabilities**
+### Monte Carlo Simulation for Probabilities
 
 I know upfront I said we are not forecasting a winner and that is still the case. In order to make the state labels easier to understand, we use the weighted averages and 3% margin of error to determine the probability a candidate can win a state _without_ any undecided voter support. 
 
@@ -119,7 +119,7 @@ def moe(x, y, n):
 
 Running a simulation one time may lead to an outcome that does not have either candidate with a majority or a sum of votes that does not equal 100% of votes cast.
 
-**Undecided Voters**
+### Undecided Voters
 
 Whenever a round of a simulation does not end up with a total of 100%, we capture that as our undecided voters. The reason this number is important is because undecided voters determine the winner of close races.
 
