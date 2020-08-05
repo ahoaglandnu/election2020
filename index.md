@@ -18,7 +18,7 @@ State polling data will come from [RealClearPolitics](https://www.realclearpolit
 
 I created the two graphics and table below so the reader can see the impact of how undecided voters can change the outcome of state elections and ultimately, the electoral college.
 
-**Last updated**: August 4, 2020
+**Last updated**: August 5, 2020
 
 ### Strong and Likely States
 
