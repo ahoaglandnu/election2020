@@ -1,0 +1,119 @@
+State,Poll,Date,SampleSize,Segment,MoE,Biden (D),Trump (R),Spread
+nc,RCP Average,7/7 - 7/31,--,,--,49.5,45.0,Biden +4.5
+nc,CBS News/YouGovCBS News,7/28 - 7/31,1129,LV,--,48,44,Biden +4
+nc,CNBC/Change Research (D)CNBC,7/24 - 7/26,284,LV,--,49,46,Biden +3
+nc,NBC News/MaristNBC/Marist,7/14 - 7/22,882,RV,4.0,51,44,Biden +7
+nc,PPP (D)PPP (D),7/7 - 7/8,881,RV,3.4,50,46,Biden +4
+co,EmersonEmerson,8/16 - 8/19,1000,RV,3.0,55,45,Biden +10
+ny,RCP Average,4/30 - 6/25,--,,--,56.0,32.0,Biden +24.0
+ny,SienaSiena,6/23 - 6/25,806,RV,3.9,57,32,Biden +25
+ny,QuinnipiacQuinnipiac,4/30 - 5/4,915,RV,3.2,55,32,Biden +23
+al,AL Daily News/Mason-DixonMason-Dixon,2/4 - 2/6,625,RV,4.0,38,58,Trump +20
+de,Gonzales ResearchGonzales Research,1/16 - 1/19,410,RV,5.0,56,40,Biden +16
+mt,EmersonEmerson,7/31 - 8/2,584,LV,4.0,42,53,Trump +11
+mt,PPP (D)PPP (D),7/9 - 7/10,1224,RV,2.8,42,51,Trump +9
+va,RCP Average,5/3 - 7/19,--,,--,50.5,39.0,Biden +11.5
+va,VCUVCU,7/11 - 7/19,725,LV,6.2,50,39,Biden +11
+va,Roanoke CollegeRoanoke,5/3 - 5/17,563,LV,4.1,51,39,Biden +12
+tx,RCP Average,6/19 - 7/20,--,,--,45.2,45.4,Trump +0.2
+tx,QuinnipiacQuinnipiac,7/16 - 7/20,880,RV,3.3,45,44,Biden +1
+tx,CBS News/YouGovCBS News,7/7 - 7/10,1212,RV,3.3,45,46,Trump +1
+tx,OAN/GravisGravis,7/7 - 7/7,591,LV,4.3,44,46,Trump +2
+tx,Dallas Morning NewsDMN,6/29 - 7/7,1677,LV,2.4,48,43,Biden +5
+tx,University of TexasUniversity of Texas,6/19 - 6/29,1200,RV,2.8,44,48,Trump +4
+mo,RCP Average,5/26 - 7/1,--,,--,43.3,49.7,Trump +6.4
+mo,SLU/YouGovSt. Louis U.,6/23 - 7/1,900,LV,4.0,43,50,Trump +7
+mo,Missouri ScoutMissouri Scout,6/10 - 6/11,1152,LV,2.9,43,51,Trump +8
+mo,WeAskAmericaWeAskAmerica,5/26 - 5/27,500,LV,4.4,44,48,Trump +4
+ks,PPP (D)PPP (D),3/10 - 3/11,1567,RV,2.5,40,52,Trump +12
+mn,RCP Average,7/18 - 7/25,--,,--,50.0,41.0,Biden +9.0
+mn,Trafalgar Group (R)*Trafalgar (R)*,7/23 - 7/25,1129,LV,2.8,49,44,Biden +5
+mn,FOX NewsFOX News,7/18 - 7/20,776,RV,3.5,51,38,Biden +13
+ia,RCP Average,4/30 - 6/10,--,,--,44.5,46.0,Trump +1.5
+ia,Des Moines RegisterDM Register,6/7 - 6/10,674,LV,3.8,43,44,Trump +1
+ia,PPP (D)PPP (D),4/30 - 5/1,1222,RV,2.8,46,48,Trump +2
+pa,RCP Average,7/15 - 7/26,--,,--,49.4,43.4,Biden +6.0
+pa,CNBC/Change Research (D)CNBC,7/24 - 7/26,382,LV,--,48,46,Biden +2
+pa,GravisGravis,7/22 - 7/24,1006,LV,3.1,48,45,Biden +3
+pa,Franklin & MarshallF&M,7/20 - 7/26,667,RV,5.5,50,41,Biden +9
+pa,FOX NewsFOX News,7/18 - 7/20,793,RV,3.5,50,39,Biden +11
+pa,Rasmussen ReportsRasmussen,7/15 - 7/16,750,LV,3.5,51,46,Biden +5
+nj,RCP Average,4/16 - 5/4,--,,--,54.7,35.3,Biden +19.4
+nj,Rutgers-EagletonRutgers-Eagleton,4/22 - 5/2,1364,RV,3.0,56,33,Biden +23
+nj,QuinnipiacQuinnipiac,4/30 - 5/4,941,RV,3.2,54,35,Biden +19
+nj,MonmouthMonmouth,4/16 - 4/19,635,RV,3.9,54,38,Biden +16
+tn,RCP Average,1/28 - 5/22,--,,--,39.0,53.0,Trump +14.0
+tn,Vanderbilt UniversityVanderbilt,5/5 - 5/22,1000,RV,3.8,42,51,Trump +9
+tn,East Tennessee StateE. Tenn St. U.,4/22 - 5/1,536,LV,4.2,36,53,Trump +17
+tn,Mason-DixonMason-Dixon,1/28 - 1/30,625,RV,4.0,39,55,Trump +16
+ma,RCP Average,4/27 - 7/20,--,,--,60.0,28.7,Biden +31.3
+ma,MassINCMassINC,7/17 - 7/20,797,RV,--,55,23,Biden +32
+ma,EmersonEmerson,5/5 - 5/6,740,RV,3.5,67,33,Biden +34
+ma,UMass LowellUMLowell,4/27 - 5/1,1000,RV,3.6,58,30,Biden +28
+ca,RCP Average,5/8 - 5/26,--,,--,58.0,30.7,Biden +27.3
+ca,PPICPPIC,5/17 - 5/26,1048,LV,4.6,57,33,Biden +24
+ca,KGTV-TV/SurveyUSASurveyUSA,5/18 - 5/19,537,LV,5.4,58,30,Biden +28
+ca,EmersonEmerson,5/8 - 5/10,800,RV,3.4,59,29,Biden +30
+fl,RCP Average,7/16 - 7/26,--,,--,50.0,43.8,Biden +6.2
+fl,CNBC/Change Research (D)CNBC,7/24 - 7/26,685,LV,--,48,45,Biden +3
+fl,Mason-DixonMason-Dixon,7/20 - 7/23,625,RV,4.0,50,46,Biden +4
+fl,CNNCNN,7/18 - 7/24,880,RV,3.8,51,46,Biden +5
+fl,QuinnipiacQuinnipiac,7/16 - 7/20,924,RV,3.2,51,38,Biden +13
+az,RCP Average,7/14 - 7/26,--,,--,48.7,45.0,Biden +3.7
+az,CNBC/Change Research (D)CNBC,7/24 - 7/26,365,LV,--,47,45,Biden +2
+az,CNNCNN,7/18 - 7/24,873,RV,3.8,49,45,Biden +4
+az,NBC News/MaristNBC/Marist,7/14 - 7/22,826,RV,4.1,50,45,Biden +5
+ct,QuinnipiacQuinnipiac,4/30 - 5/4,945,RV,3.2,56,33,Biden +23
+ct,Hartford Courant/Sacred HeartCourant,3/24 - 4/3,1000,A,3.0,47,34,Biden +13
+ct,Hartford Courant/Sacred HeartCourant,2/24 - 3/12,1000,A,3.0,52,36,Biden +16
+ct,Hartford Courant/Sacred HeartCourant,12/16 - 1/2,1000,A,3.0,52,32,Biden +20
+ga,RCP Average,6/20 - 7/31,--,,--,45.6,47.2,Trump +1.6
+ga,CBS News/YouGovCBS News,7/28 - 7/31,1109,LV,--,46,45,Biden +1
+ga,Monmouth*Monmouth*,7/23 - 7/27,LV,,--,47,48,Trump +1
+ga,Trafalgar Group (R)*Trafalgar (R)*,7/15 - 7/18,1023,LV,3.0,43,50,Trump +7
+ga,OAN/GravisGravis,7/2 - 7/2,513,RV,4.3,45,48,Trump +3
+ga,FOX NewsFOX News,6/20 - 6/23,1013,RV,3.0,47,45,Biden +2
+ut,KUTV-2/Y2 Analytics*KUTV*,5/9 - 5/15,1078,LV,3.0,40,46,Trump +6
+ut,Deseret News/Hinckley Inst.*Deseret News*,4/15 - 4/21,964,RV,3.2,32,51,Trump +19
+ut,KUTV-2/Y2 Analytics*KUTV*,3/21 - 3/30,1331,LV,2.8,41,46,Trump +5
+ut,Deseret News/Hinckley Inst.*Deseret News*,2/24 - 3/1,1000,RV,3.1,33,50,Trump +17
+ut,Deseret News/Hinckley Inst.*Deseret News*,1/15 - 1/22,1017,RV,3.1,31,49,Trump +18
+nm,RCP Average,1/3 - 6/13,--,,--,53.5,42.5,Biden +11.0
+nm,PPP (D)PPP (D),6/12 - 6/13,740,RV,3.6,53,39,Biden +14
+nm,EmersonEmerson,1/3 - 1/6,967,RV,3.1,54,46,Biden +8
+ky,PPP (D)PPP (D),5/14 - 5/15,1104,RV,3.0,39,55,Trump +16
+wa,KING-TV/SurveyUSAKing-TV/SUSA,7/22 - 7/27,534,LV,5.2,62,28,Biden +34
+wa,KING-TV/SurveyUSAKing-TV/SUSA,5/16 - 5/19,530,LV,5.5,57,31,Biden +26
+wa,KING-TV/SurveyUSAKing-TV/SUSA,3/4 - 3/6,992,RV,3.7,57,34,Biden +23
+me,RCP Average,7/2 - 7/3,--,,--,51.5,40.0,Biden +11.5
+me,Colby CollegeColby,7/18 - 6/24,888,LV,3.9,50,38,Biden +12
+me,PPP (D)PPP (D),7/2 - 7/3,1022,RV,3.1,53,42,Biden +11
+wi,RCP Average,6/14 - 7/26,--,,--,48.0,43.0,Biden +5.0
+wi,CNBC/Change Research (D)CNBC,7/24 - 7/26,392,LV,--,48,43,Biden +5
+wi,GravisGravis,7/22 - 7/22,796,RV,3.5,50,42,Biden +8
+wi,Trafalgar Group (R)Trafalgar,6/23 - 6/25,1021,LV,3.0,45,46,Trump +1
+wi,MarquetteMarquette,6/14 - 6/18,805,RV,4.3,49,41,Biden +8
+ar,Talk Business/Hendrix CollegeHendrix,6/9 - 6/10,869,LV,3.3,45,47,Trump +2
+ms,Mason-DixonMason-Dixon,2/26 - 2/28,625,RV,4.0,41,56,Trump +15
+sc,GravisGravis,7/17 - 7/17,604,LV,4.0,46,50,Trump +4
+sc,East Carolina U.ECU,1/31 - 2/2,1756,RV,2.7,40,52,Trump +12
+sc,EmersonEmerson,2/28 - 3/2,755,RV,3.5,48,52,Trump +4
+in,Indy Politics/Change Res. (D)*Indy Politics,4/10 - 4/13,1021,LV,3.1,39,52,Trump +13
+nh,RCP Average,1/20 - 7/28,--,,--,51.0,41.7,Biden +9.3
+nh,UNHUNH,7/16 - 7/28,1893,LV,--,53,40,Biden +13
+nh,St. AnselmSt. Anselm,6/13 - 6/16,1072,RV,3.0,49,42,Biden +7
+nh,NBC News/MaristNBC/Marist,1/20 - 1/23,2223,RV,2.6,51,43,Biden +8
+oh,RCP Average,6/24 - 7/24,--,,--,47.0,44.7,Biden +2.3
+oh,CBS News/YouGovCBS News,7/21 - 7/24,1211,LV,--,45,46,Trump +1
+oh,Rasmussen ReportsRasmussen,7/15 - 7/16,750,LV,3.5,50,46,Biden +4
+oh,Ohio Media CollaborativeOhio Media,6/24 - 7/15,1037,RV,3.0,46,42,Biden +4
+nv,RCP Average,8/14 - 1/8,--,,--,48.3,44.3,Biden +4.0
+nv,FOX NewsFOX News,1/5 - 1/8,1505,RV,2.5,47,39,Biden +8
+nv,EmersonEmerson,10/31 - 11/2,1089,RV,2.9,49,51,Trump +2
+nv,GravisGravis,8/14 - 8/16,926,RV,3.2,49,43,Biden +6
+mi,RCP Average,7/18 - 7/26,--,,--,49.3,41.5,Biden +7.8
+mi,CNBC/Change Research (D)CNBC,7/24 - 7/26,382,LV,--,46,42,Biden +4
+mi,CBS News/YouGovCBS News,7/21 - 7/24,1156,LV,--,48,42,Biden +6
+mi,GravisGravis,7/22 - 7/22,754,RV,3.6,51,42,Biden +9
+mi,CNNCNN,7/18 - 7/24,927,RV,3.8,52,40,Biden +12
+ak,PPP (D)PPP (D),7/7 - 7/8,1081,RV,3.0,45,48,Trump +3
