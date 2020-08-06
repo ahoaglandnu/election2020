@@ -18,7 +18,7 @@ State polling data will come from [RealClearPolitics](https://www.realclearpolit
 
 I created the two graphics and table below so the reader can see the impact of how undecided voters can change the outcome of state elections and ultimately, the electoral college.
 
-**Last updated**: August 5, 2020
+**Last updated**: August 6, 2020
 
 ### Strong and Likely States
 
@@ -31,7 +31,7 @@ In the graphic below, we have states that are considered strong or likely states
 
 The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
 
-![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0804.png)
+![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0806.png)
 
 
 ### If all undecided voters are shy Trump supporters
