@@ -1,3 +1,3 @@
 # election2020
 
-This is the start of the work involved with my 2020 poll aggregation project.
+Methodology and updates can be found here: https://ahoaglandnu.github.io/election2020/
