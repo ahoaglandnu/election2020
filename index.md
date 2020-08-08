@@ -1,8 +1,69 @@
-![data science](https://user-images.githubusercontent.com/19977/61344565-8966da00-a806-11e9-9e6c-954a42102b36.png)
-
 # Understanding the 2020 Presidential Election Polls
 
+**Last updated**: August 8, 2020
+
+## Update
+
+I created the three interactive graphics and table below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college.
+
+## Strong and Likely States
+
+In the two graphics below, we have states that are considered strong or likely states for the two candidates. The probability is based upon the weighted average polling for each state and if a candidate can win the state without the support of any undecided voters. Safe states without polling as designated by the Cook Political Report are assigned a probabilty of 1 for the favored candidate and 0 for the opponent.
+
+### Biden
+
+Biden Solid States 189  
+Biden Likely States 72  
+Biden Solid + Likely States 261   
+
+![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden0808.png)
+
+Interactive graphic
+https://ahoaglandnu.github.io/biden_no_undecideds.html
+
+### Trump
+
+Trump Solid States 61   
+Trump Likely States 50   
+Trump Solid + Likely States 111   
+
+![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump0808.png)
+
+Interactive graphic
+https://ahoaglandnu.github.io/trump_no_undecideds.html
+
+
+## States where undecided voters are most likely to determine the outcome
+
+The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
+
+![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0806.png)
+
+
+## If all undecided voters are shy Trump supporters
+
+The graphic below assumes **all** undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
+
+Trump Solid States 240   
+Trump Likely States 41   
+Trump Solid + Likely States 281   
+
+Biden Solid States 189  
+Biden Likely States 68  
+Biden Solid + Likely States 257  
+
+![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden0808.png)
+
+Interactive graphic
+https://ahoaglandnu.github.io/hidden_trump.html
+
+
+
+# About this Project 
+
 Quite a lot has been written about 2016 election forecasts, polls, and the [influence](https://www.dartmouth.edu/~seanjwestwood/papers/aggregator.pdf) they may have had on voter behavior. A good friend and I were also caught up in the [hype around forecast models](https://slate.com/news-and-politics/2016/11/how-will-we-know-if-nate-silver-was-right.html) and which one would be the most accurate. We all know how that turned out. 
+
+![data science](https://user-images.githubusercontent.com/19977/61344565-8966da00-a806-11e9-9e6c-954a42102b36.png)
 
 This project is based off of the lessons learned from the 2016 and 2018 elections. The intent is to **inform**, _not influence_, the 2020 presidential election.
 
@@ -12,33 +73,7 @@ Plain and simple, there is not a prediction for the winner. Instead, the intent 
 
 ### Sources of Polling Data
 
-State polling data will come from [RealClearPolitics](https://www.realclearpolitics.com/epolls/2020/president/2020_elections_electoral_college_map.html) and not include their state [averages](https://en.wikipedia.org/wiki/Mean) for reasons covered in the approach section below. Not all states or districts may have polling available. In these cases, the [Cook Political Report's Electoral Scorecard](https://cookpolitical.com/) will be used to complete the picture. The states or districts not having polling data until much later in the campaign are often safe for one candidate while battleground states have polling data updated more frequently.  
-
-# Results
-
-I created the two graphics and table below so the reader can see the impact of how undecided voters can change the outcome of state elections and ultimately, the electoral college.
-
-**Last updated**: August 6, 2020
-
-### Strong and Likely States
-
-In the graphic below, we have states that are considered strong or likely states for the two candidates. If a state is considered leaning toward either candidate, then it is shaded as a toss up. The Cook Political Report and polling diverged for Florida, North Carolina, and Utah. For that reason, the states are displayed as toss ups. 
-
-![safe](https://www.270towin.com/map-images/xr2w1)
-
-
-### States where undecided voters are most likely to determine the outcome
-
-The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
-
-![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0806.png)
-
-
-### If all undecided voters are shy Trump supporters
-
-The graphic below assumes all undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
-
-![hidden](https://www.270towin.com/map-images/l7gdg)
+State polling data will come from [RealClearPolitics](https://www.realclearpolitics.com/epolls/2020/president/2020_elections_electoral_college_map.html) and not include their state [averages](https://en.wikipedia.org/wiki/Mean) for reasons covered in the approach section below. Not all states or districts may have polling available. In these cases, the [Cook Political Report's Electoral Scorecard](https://cookpolitical.com/) will be used to complete the picture. The states or districts not having polling data until much later in the campaign are often safe for one candidate while battleground states have polling data updated more frequently.
 
 # The Approach
 
