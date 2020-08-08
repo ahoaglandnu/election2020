@@ -4,7 +4,7 @@
 
 ## Update
 
-I created the three interactive graphics and table below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college.
+I created the three interactive graphics and table below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college. Keep in mind that an electoral college tally of 270 and above is a win.
 
 ## Strong and Likely States
 
@@ -18,8 +18,8 @@ Biden Solid + Likely States 261
 
 ![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden0808.png)
 
-Interactive graphic
-https://ahoaglandnu.github.io/biden_no_undecideds.html
+**Interactive graphic**  
+[Biden Solid and Likely States](https://ahoaglandnu.github.io/biden_no_undecideds.html)
 
 ### Trump
 
@@ -29,8 +29,9 @@ Trump Solid + Likely States 111
 
 ![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump0808.png)
 
-Interactive graphic
-https://ahoaglandnu.github.io/trump_no_undecideds.html
+**Interactive graphic**  
+[Trump Solid and Likely States](https://ahoaglandnu.github.io/trump_no_undecideds.html)
+
 
 
 ## States where undecided voters are most likely to determine the outcome
@@ -46,7 +47,7 @@ The graphic below assumes **all** undecided voters will vote for Trump. This sce
 
 Trump Solid States 240   
 Trump Likely States 41   
-Trump Solid + Likely States 281   
+Trump Solid + Likely States **281**   
 
 Biden Solid States 189  
 Biden Likely States 68  
@@ -54,8 +55,8 @@ Biden Solid + Likely States 257
 
 ![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden0808.png)
 
-Interactive graphic
-https://ahoaglandnu.github.io/hidden_trump.html
+**Interactive graphic**  
+[Hidden Trump Vote Scenario](https://ahoaglandnu.github.io/hidden_trump.html)
 
 
 
