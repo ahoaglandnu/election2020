@@ -1,6 +1,6 @@
 # Understanding the 2020 Presidential Election Polls
 
-**Last updated**: August 8, 2020
+**Last updated**: August 10, 2020
 
 ## Update
 
@@ -38,7 +38,21 @@ Trump Solid + Likely States 111
 
 The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
 
-![table](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/0806.png)
+
+|    | State          |   ec | cook       | polls      |   Biden_avg |   Trump_avg |   undecideds |
+|---:|:---------------|-----:|:-----------|:-----------|------------:|------------:|-------------:|
+|  0 | arizona        |   11 | Toss Up    | Lean Dem   |        49.3 |        45   |          5.6 |
+|  1 | florida        |   29 | Toss Up    | Likely Dem |        50.7 |        46   |          3.4 |
+|  2 | georgia        |   16 | Toss Up    | Lean Rep   |        44.6 |        48.6 |          6.9 |
+|  3 | iowa           |    6 | Lean Rep   | Toss Up    |        44.5 |        46   |          9.5 |
+|  4 | michigan       |   16 | Lean Dem   | Lean Dem   |        49.1 |        41.6 |          9.4 |
+|  5 | minnesota      |   10 | Lean Dem   | Lean Dem   |        49.3 |        43.2 |          7.6 |
+|  6 | nevada         |    6 | Likely Dem | Lean Dem   |        48   |        43.7 |          8.3 |
+|  7 | north carolina |   15 | Toss Up    | Likely Dem |        51   |        44   |          5   |
+|  8 | ohio           |   18 | Lean Rep   | Lean Dem   |        48.4 |        44.4 |          7.2 |
+|  9 | pennsylvania   |   20 | Lean Dem   | Lean Dem   |        48.5 |        44   |          7.5 |
+| 10 | utah           |    6 | Likely Rep | Toss Up    |        38.5 |        46.9 |         14.6 |
+| 11 | wisconsin      |   10 | Lean Dem   | Lean Dem   |        48.8 |        42   |          9.2 |
 
 
 ## If all undecided voters are shy Trump supporters
