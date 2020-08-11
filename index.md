@@ -1,6 +1,6 @@
 # Understanding the 2020 Presidential Election Polls
 
-**Last updated**: August 10, 2020
+**Last updated**: August 11, 2020
 
 ## Update
 
@@ -12,22 +12,22 @@ In the two graphics below, we have states that are considered strong or likely s
 
 ### Biden
 
-Biden Solid States 189  
-Biden Likely States 72  
-Biden Solid + Likely States 261   
+Biden Solid States 189
+Biden Likely States 73
+Biden Solid + Likely States 262   
 
-![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden0808.png)
+![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden0811.png)
 
 **Interactive graphic**  
 [Biden Solid and Likely States](https://ahoaglandnu.github.io/biden_no_undecideds.html)
 
 ### Trump
 
-Trump Solid States 61   
-Trump Likely States 50   
+Trump Solid States 61
+Trump Likely States 50
 Trump Solid + Likely States 111   
 
-![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump0808.png)
+![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump0811.png)
 
 **Interactive graphic**  
 [Trump Solid and Likely States](https://ahoaglandnu.github.io/trump_no_undecideds.html)
@@ -41,33 +41,32 @@ The table below can be considered the "path to victory" states as both campaigns
 
 |    | State          |   ec | cook       | polls      |   Biden_avg |   Trump_avg |   undecideds |
 |---:|:---------------|-----:|:-----------|:-----------|------------:|------------:|-------------:|
-|  0 | arizona        |   11 | Toss Up    | Lean Dem   |        49.3 |        45   |          5.6 |
-|  1 | florida        |   29 | Toss Up    | Likely Dem |        50.7 |        46   |          3.4 |
-|  2 | georgia        |   16 | Toss Up    | Lean Rep   |        44.6 |        48.6 |          6.9 |
+|  0 | arizona        |   11 | Toss Up    | Toss Up    |        46.4 |        45.6 |          7.9 |
+|  1 | florida        |   29 | Toss Up    | Likely Dem |        50.7 |        46   |          3.3 |
+|  2 | georgia        |   16 | Toss Up    | Lean Rep   |        44.6 |        48.5 |          6.9 |
 |  3 | iowa           |    6 | Lean Rep   | Toss Up    |        44.5 |        46   |          9.5 |
-|  4 | michigan       |   16 | Lean Dem   | Lean Dem   |        49.1 |        41.6 |          9.4 |
-|  5 | minnesota      |   10 | Lean Dem   | Lean Dem   |        49.3 |        43.2 |          7.6 |
-|  6 | nevada         |    6 | Likely Dem | Lean Dem   |        48   |        43.7 |          8.3 |
-|  7 | north carolina |   15 | Toss Up    | Likely Dem |        51   |        44   |          5   |
-|  8 | ohio           |   18 | Lean Rep   | Lean Dem   |        48.4 |        44.4 |          7.2 |
-|  9 | pennsylvania   |   20 | Lean Dem   | Lean Dem   |        48.5 |        44   |          7.5 |
-| 10 | utah           |    6 | Likely Rep | Toss Up    |        38.5 |        46.9 |         14.6 |
-| 11 | wisconsin      |   10 | Lean Dem   | Lean Dem   |        48.8 |        42   |          9.2 |
+|  4 | minnesota      |   10 | Lean Dem   | Lean Dem   |        49.3 |        43.1 |          7.6 |
+|  5 | nevada         |    6 | Likely Dem | Lean Dem   |        48   |        43.7 |          8.3 |
+|  6 | north carolina |   15 | Toss Up    | Lean Dem   |        47.7 |        45.3 |          7   |
+|  7 | ohio           |   18 | Lean Rep   | Lean Dem   |        48.4 |        44.4 |          7.2 |
+|  8 | pennsylvania   |   20 | Lean Dem   | Lean Dem   |        48.5 |        44   |          7.5 |
+|  9 | utah           |    6 | Likely Rep | Toss Up    |        38.5 |        46.9 |         14.6 |
+| 10 | wisconsin      |   10 | Lean Dem   | Lean Dem   |        48.8 |        42   |          9.2 |
 
 
 ## If all undecided voters are shy Trump supporters
 
 The graphic below assumes **all** undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
 
-Trump Solid States 240   
-Trump Likely States 41   
-Trump Solid + Likely States **281**   
+Trump Solid States 266
+Trump Likely States 14
+Trump Solid + Likely States **280**   
 
-Biden Solid States 189  
-Biden Likely States 68  
-Biden Solid + Likely States 257  
+Biden Solid States 189
+Biden Likely States 69
+Biden Solid + Likely States 258  
 
-![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden0808.png)
+![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden0811.png)
 
 **Interactive graphic**  
 [Hidden Trump Vote Scenario](https://ahoaglandnu.github.io/hidden_trump.html)
