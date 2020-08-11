@@ -4,7 +4,7 @@
 
 ## Update
 
-I created the three interactive graphics and table below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college. Keep in mind that an electoral college tally of 270 and above is a win.
+I created the four interactive graphics and table below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college. Keep in mind that an electoral college tally of 270 and above is a win.
 
 ## Strong and Likely States
 
@@ -71,7 +71,22 @@ Biden Solid + Likely States 258
 **Interactive graphic**  
 [Hidden Trump Vote Scenario](https://ahoaglandnu.github.io/hidden_trump.html)
 
+## Random distribution of undecided voters
 
+The graphic below randomly distributed undecided voters for each state in 20,000 simulations per state.
+
+Trump Solid States 111   
+Trump Likely States 75   
+Trump Solid + Likely States 186   
+
+Biden Solid States 262   
+Biden Likely States 90   
+Biden Solid + Likely States **352**  
+
+![random](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/random0811.png)
+
+**Interactive graphic**   
+[Most Likely Scenario](https://ahoaglandnu.github.io/random_undecided.html)
 
 # About this Project 
 
