@@ -12,8 +12,8 @@ In the two graphics below, we have states that are considered strong or likely s
 
 ### Biden
 
-Biden Solid States 189
-Biden Likely States 73
+Biden Solid States 189  
+Biden Likely States 73   
 Biden Solid + Likely States 262   
 
 ![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden0811.png)
@@ -23,9 +23,9 @@ Biden Solid + Likely States 262
 
 ### Trump
 
-Trump Solid States 61
-Trump Likely States 50
-Trump Solid + Likely States 111   
+Trump Solid States 61   
+Trump Likely States 50   
+Trump Solid + Likely States 111      
 
 ![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump0811.png)
 
@@ -58,13 +58,13 @@ The table below can be considered the "path to victory" states as both campaigns
 
 The graphic below assumes **all** undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
 
-Trump Solid States 266
-Trump Likely States 14
-Trump Solid + Likely States **280**   
+Trump Solid States 266   
+Trump Likely States 14  
+Trump Solid + Likely States **280**     
 
-Biden Solid States 189
-Biden Likely States 69
-Biden Solid + Likely States 258  
+Biden Solid States 189  
+Biden Likely States 69  
+Biden Solid + Likely States 258   
 
 ![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden0811.png)
 
