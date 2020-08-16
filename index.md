@@ -43,7 +43,7 @@
 
 ## Update
 
-I added a fourth scenario to demonstrate how undecided voters can change the outcome of the election. This one uses the Cook Political Report's [Partisan Voter Index](https://cookpolitical.com/state-pvis) to weight how to distribut undecided voters. Keep in mind that an electoral college tally of 270 and above is a win so when a scenario has a winner, that total will be in **bold**.
+I added a fourth scenario to demonstrate how undecided voters can change the outcome of the election. This one uses the Cook Political Report's [Partisan Voter Index](https://cookpolitical.com/state-pvis) to weight how to distribute undecided voters. Keep in mind that an electoral college tally of 270 and above is a win so when a scenario has a winner, that total will be in **bold**.
 
 ## Strong and Likely States
 
