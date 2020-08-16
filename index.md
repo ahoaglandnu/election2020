@@ -145,13 +145,13 @@ Biden Solid + Likely States **337**
 
 The graphic below uses the PVI to determine how to distribute undecided voters for each state in 20,000 simulations per state. This is the equivalent of a _Polls Plus_ model.
 
-Trump Solid States 212
-Trump Likely States 18
-Trump Solid + Likely States 230
+Trump Solid States 212   
+Trump Likely States 18   
+Trump Solid + Likely States 230   
 
-Biden Solid States 217
-Biden Likely States 91
-Biden Solid + Likely States **308**
+Biden Solid States 217   
+Biden Likely States 91   
+Biden Solid + Likely States **308**   
 
 **Link to Interactive graphic**   
 [PVI undecided voters](https://ahoaglandnu.github.io/pvi.html)
