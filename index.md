@@ -1,10 +1,49 @@
 # Understanding the 2020 Presidential Election Polls
 
+![candidates](https://raw.githubusercontent.com/ahoaglandnu/election2020/master/graphics/election2020.png)
+
 **Last updated**: August 15, 2020
+
+## TL;DR Scenarios
+
+**States with a weighted polling average of 50% or higher**
+
+| Candidate      | Strong     | Likely     |   Total     |
+|:---------------|:-----------|:-----------|------------:|
+| Biden          | 189        | 57         |        246  | 
+| Trump          | 61         | 44         |        105  | 
+
+
+
+**If _ALL_ undecided voters in every state vote for Trump**
+
+| Candidate      | Strong     | Likely     |   Total     |
+|:---------------|:-----------|:-----------|------------:|
+| Biden          | 193        | 24         |        217  | 
+| Trump          | 246        | 75         |        **341**  | 
+
+
+
+**Randomized distribution of undecided voters in every state**
+
+| Candidate      | Strong     | Likely     |   Total     |
+|:---------------|:-----------|:-----------|------------:|
+| Biden          | 266        | 71         |        **337**  | 
+| Trump          | 111        | 90         |        201  |
+
+
+
+**_NEW_**   
+**Undecided voters distributed by Partisan Voter Index**
+
+| Candidate      | Strong     | Likely     |   Total     |
+|:---------------|:-----------|:-----------|------------:|
+| Biden          | 217        | 91         |        **308**  | 
+| Trump          | 212        | 18         |        230  |
 
 ## Update
 
-I created the four interactive graphics and two tables below so the reader can see the impact of how undecided voters can change the outcome of the election at the state level and ultimately, the electoral college. Keep in mind that an electoral college tally of 270 and above is a win.
+I added a fourth scenario to demonstrate how undecided voters can change the outcome of the election. This one uses the Cook Political Report's [Partisan Voter Index](https://cookpolitical.com/state-pvis) to weight how to distribut undecided voters. Keep in mind that an electoral college tally of 270 and above is a win so when a scenario has a winner, that total will be in **bold**.
 
 ## Strong and Likely States
 
@@ -16,10 +55,12 @@ Biden Solid States 189
 Biden Likely States 57   
 Biden Solid + Likely States 246   
 
+**Link to Interactive graphic**  
+[Biden Solid and Likely States](https://ahoaglandnu.github.io/biden_no_undecideds.html)
+
 ![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden_0815.png)
 
-**Interactive graphic**  
-[Biden Solid and Likely States](https://ahoaglandnu.github.io/biden_no_undecideds.html)
+
 
 ### Trump
 
@@ -27,32 +68,32 @@ Trump Solid States 61
 Trump Likely States 44   
 Trump Solid + Likely States 105      
 
-![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump_0815.png)
-
-**Interactive graphic**  
+**Link to Interactive graphic**  
 [Trump Solid and Likely States](https://ahoaglandnu.github.io/trump_no_undecideds.html)
+
+![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump_0815.png)
 
 
 
 ## States where undecided voters are most likely to determine the outcome
 
-The table below can be considered the "path to victory" states as both campaigns will likely pursue several combinations of these states to pass 270 electoral college votes.
+The table below can be considered the "path to victory" states as both campaigns will pursue several combinations of these states to pass 270 electoral college votes.
 
 
-|    | State          |   ec | cook       | polls      |   Biden_avg |   Trump_avg |   undecideds |
-|---:|:---------------|-----:|:-----------|:-----------|------------:|------------:|-------------:|
-|  0 | arizona        |   11 | Toss Up    | Toss Up    |        46.2 |        44.9 |          8.9 |
-|  1 | florida        |   29 | Toss Up    | Likely Dem |        50.2 |        44.5 |          5.3 |
-|  2 | georgia        |   16 | Toss Up    | Lean Rep   |        45.1 |        47.3 |          7.6 |
-|  3 | iowa           |    6 | Lean Rep   | Toss Up    |        44.5 |        46   |          9.5 |
-|  4 | michigan       |   16 | Lean Dem   | Lean Dem   |        49.1 |        41.9 |          9.1 |
-|  5 | minnesota      |   10 | Lean Dem   | Lean Dem   |        49.4 |        43.2 |          7.3 |
-|  6 | nevada         |    6 | Likely Dem | Lean Dem   |        48   |        43.7 |          8.4 |
-|  7 | north carolina |   15 | Toss Up    | Lean Rep   |        46.4 |        47.4 |          6.2 |
-|  8 | ohio           |   18 | Lean Rep   | Lean Dem   |        47.8 |        45   |          7.3 |
-|  9 | pennsylvania   |   20 | Lean Dem   | Lean Dem   |        49.5 |        43.5 |          7   |
-| 10 | utah           |    6 | Likely Rep | Toss Up    |        38.5 |        46.9 |         14.6 |
-| 11 | wisconsin      |   10 | Lean Dem   | Lean Dem   |        47.8 |        43.2 |          9   |
+|    | State          |   ec | cook       | PVI   |   Biden_avg |   Trump_avg |   undecideds |
+|---:|:---------------|-----:|:-----------|:------|------------:|------------:|-------------:|
+|  0 | arizona        |   11 | Toss Up    | R+5   |        46.2 |        44.9 |          8.9 |
+|  1 | florida        |   29 | Toss Up    | R+2   |        50.2 |        44.5 |          5.3 |
+|  2 | georgia        |   16 | Toss Up    | R+5   |        45.1 |        47.3 |          7.6 |
+|  3 | iowa           |    6 | Lean Rep   | R+3   |        44.5 |        46   |          9.5 |
+|  4 | michigan       |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9.1 |
+|  5 | minnesota      |   10 | Lean Dem   | D+1   |        49.4 |        43.2 |          7.3 |
+|  6 | nevada         |    6 | Likely Dem | D+1   |        48   |        43.7 |          8.4 |
+|  7 | north carolina |   15 | Toss Up    | R+3   |        46.4 |        47.4 |          6.2 |
+|  8 | ohio           |   18 | Lean Rep   | R+3   |        47.8 |        45   |          7.3 |
+|  9 | pennsylvania   |   20 | Lean Dem   | EVEN  |        49.5 |        43.5 |          7   |
+| 10 | utah           |    6 | Likely Rep | R+20  |        38.5 |        46.9 |         14.6 |
+| 11 | wisconsin      |   10 | Lean Dem   | EVEN  |        47.8 |        43.2 |          9   |
 
 
 ## If all undecided voters are shy Trump supporters
@@ -89,61 +130,62 @@ Biden Solid + Likely States **337**
 **Interactive graphic**   
 [Most Likely Scenario](https://ahoaglandnu.github.io/random_undecided.html)
 
-## Updated Weighted Average of Polls and Cook Political Report Assessment
+## Updated Weighted Average of Polls, Cook Political Report Assessment, and Partisan Voter Index
 
-|    | State                |   ec | cook       | polls      |   Biden_avg |   Trump_avg |   undecideds |
-|---:|:---------------------|-----:|:-----------|:-----------|------------:|------------:|-------------:|
-|  0 | alabama              |    9 | Solid Rep  | Solid Rep  |        38   |        58   |          4   |
-|  1 | alaska               |    3 | Likely Rep | Lean Rep   |        45   |        48   |          7   |
-|  2 | arizona              |   11 | Toss Up    | Toss Up    |        46.2 |        44.9 |          8.9 |
-|  3 | arkansas             |    6 | Solid Rep  | Lean Rep   |        45   |        47   |          8   |
-|  4 | california           |   55 | Solid Dem  | Solid Dem  |        62.4 |        29.6 |          8   |
-|  5 | colorado             |    9 | Likely Dem | Solid Dem  |        55   |        45   |          0   |
-|  6 | connecticut          |    7 | Solid Dem  | Likely Dem |        50.9 |        33.9 |         15.2 |
-|  7 | delaware             |    3 | Solid Dem  | Solid Dem  |        56   |        40   |          4   |
-|  8 | florida              |   29 | Toss Up    | Likely Dem |        50.2 |        44.5 |          5.3 |
-|  9 | georgia              |   16 | Toss Up    | Lean Rep   |        45.1 |        47.3 |          7.6 |
-| 10 | indiana              |   11 | Solid Rep  | Likely Rep |        39   |        52   |          9   |
-| 11 | iowa                 |    6 | Lean Rep   | Toss Up    |        44.5 |        46   |          9.5 |
-| 12 | kansas               |    6 | Solid Rep  | Lean Rep   |        40.6 |        49.6 |          9.8 |
-| 13 | kentucky             |    8 | Solid Rep  | Solid Rep  |        39.7 |        53.3 |          7   |
-| 14 | maine                |    4 | Likely Dem | Likely Dem |        51.6 |        39.3 |          9.1 |
-| 15 | massachusetts        |   11 | Solid Dem  | Solid Dem  |        62.9 |        29.4 |          7.6 |
-| 16 | michigan             |   16 | Lean Dem   | Lean Dem   |        49.1 |        41.9 |          9.1 |
-| 17 | minnesota            |   10 | Lean Dem   | Lean Dem   |        49.4 |        43.2 |          7.3 |
-| 18 | mississippi          |    6 | Solid Rep  | Solid Rep  |        41   |        56   |          3   |
-| 19 | missouri             |   10 | Solid Rep  | Likely Rep |        43.2 |        50.2 |          6.7 |
-| 20 | montana              |    3 | Likely Rep | Likely Rep |        42   |        52.2 |          5.8 |
-| 21 | nevada               |    6 | Likely Dem | Lean Dem   |        48   |        43.7 |          8.4 |
-| 22 | new hampshire        |    4 | Lean Dem   | Likely Dem |        52.3 |        40.7 |          7   |
-| 23 | new jersey           |   14 | Solid Dem  | Solid Dem  |        55   |        34.5 |         10.5 |
-| 24 | new mexico           |    5 | Solid Dem  | Solid Dem  |        53.7 |        43.7 |          2.7 |
-| 25 | new york             |   29 | Solid Dem  | Solid Dem  |        55.7 |        32   |         12.3 |
-| 26 | north carolina       |   15 | Toss Up    | Lean Rep   |        46.4 |        47.4 |          6.2 |
-| 27 | ohio                 |   18 | Lean Rep   | Lean Dem   |        47.8 |        45   |          7.3 |
-| 28 | pennsylvania         |   20 | Lean Dem   | Lean Dem   |        49.5 |        43.5 |          7   |
-| 29 | south carolina       |    9 | Likely Rep | Likely Rep |        43.3 |        50.2 |          6.4 |
-| 30 | tennessee            |   11 | Solid Rep  | Likely Rep |        39   |        52.8 |          8.2 |
-| 31 | texas                |   38 | Lean Rep   | Lean Rep   |        43.6 |        47.5 |          8.8 |
-| 32 | utah                 |    6 | Likely Rep | Toss Up    |        38.5 |        46.9 |         14.6 |
-| 33 | virginia             |   13 | Likely Dem | Likely Dem |        50.7 |        39   |         10.3 |
-| 34 | washington           |   12 | Solid Dem  | Solid Dem  |        59.5 |        30.3 |         10.2 |
-| 35 | wisconsin            |   10 | Lean Dem   | Lean Dem   |        47.8 |        43.2 |          9   |
-| 36 | district of columbia |    3 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 37 | hawaii               |    4 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 38 | idaho                |    4 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 39 | illinois             |   20 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 40 | louisiana            |    8 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 41 | maryland             |   10 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 42 | nebraska             |    5 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 43 | north dakota         |    3 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 44 | oklahoma             |    7 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 45 | oregon               |    7 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 46 | rhode island         |    4 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 47 | south dakota         |    3 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 48 | vermont              |    3 | Solid Dem  | Solid Dem  |       nan   |       nan   |        nan   |
-| 49 | west virginia        |    5 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
-| 50 | wyoming              |    3 | Solid Rep  | Solid Rep  |       nan   |       nan   |        nan   |
+
+|    | State                |   ec | cook       | PVI   |   Biden_avg |   Trump_avg |   undecideds |
+|---:|:---------------------|-----:|:-----------|:------|------------:|------------:|-------------:|
+|  0 | alabama              |    9 | Solid Rep  | R+14  |        38   |        58   |          4   |
+|  1 | alaska               |    3 | Likely Rep | R+9   |        45   |        48   |          7   |
+|  2 | arizona              |   11 | Toss Up    | R+5   |        46.2 |        44.9 |          8.9 |
+|  3 | arkansas             |    6 | Solid Rep  | R+15  |        45   |        47   |          8   |
+|  4 | california           |   55 | Solid Dem  | D+12  |        62.4 |        29.6 |          8   |
+|  5 | colorado             |    9 | Likely Dem | D+1   |        55   |        45   |          0   |
+|  6 | connecticut          |    7 | Solid Dem  | D+6   |        50.9 |        33.9 |         15.2 |
+|  7 | delaware             |    3 | Solid Dem  | D+6   |        56   |        40   |          4   |
+|  8 | florida              |   29 | Toss Up    | R+2   |        50.2 |        44.5 |          5.3 |
+|  9 | georgia              |   16 | Toss Up    | R+5   |        45.1 |        47.3 |          7.6 |
+| 10 | indiana              |   11 | Solid Rep  | R+9   |        39   |        52   |          9   |
+| 11 | iowa                 |    6 | Lean Rep   | R+3   |        44.5 |        46   |          9.5 |
+| 12 | kansas               |    6 | Solid Rep  | R+13  |        40.6 |        49.6 |          9.8 |
+| 13 | kentucky             |    8 | Solid Rep  | R+15  |        39.7 |        53.3 |          7   |
+| 14 | maine                |    4 | Likely Dem | D+3   |        51.6 |        39.3 |          9.1 |
+| 15 | massachusetts        |   11 | Solid Dem  | D+12  |        62.9 |        29.4 |          7.6 |
+| 16 | michigan             |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9.1 |
+| 17 | minnesota            |   10 | Lean Dem   | D+1   |        49.4 |        43.2 |          7.3 |
+| 18 | mississippi          |    6 | Solid Rep  | R+9   |        41   |        56   |          3   |
+| 19 | missouri             |   10 | Solid Rep  | R+9   |        43.2 |        50.2 |          6.7 |
+| 20 | montana              |    3 | Likely Rep | R+11  |        42   |        52.2 |          5.8 |
+| 21 | nevada               |    6 | Likely Dem | D+1   |        48   |        43.7 |          8.4 |
+| 22 | new hampshire        |    4 | Lean Dem   | EVEN  |        52.3 |        40.7 |          7   |
+| 23 | new jersey           |   14 | Solid Dem  | D+7   |        55   |        34.5 |         10.5 |
+| 24 | new mexico           |    5 | Solid Dem  | D+3   |        53.7 |        43.7 |          2.7 |
+| 25 | new york             |   29 | Solid Dem  | D+11  |        55.7 |        32   |         12.3 |
+| 26 | north carolina       |   15 | Toss Up    | R+3   |        46.4 |        47.4 |          6.2 |
+| 27 | ohio                 |   18 | Lean Rep   | R+3   |        47.8 |        45   |          7.3 |
+| 28 | pennsylvania         |   20 | Lean Dem   | EVEN  |        49.5 |        43.5 |          7   |
+| 29 | south carolina       |    9 | Likely Rep | R+8   |        43.3 |        50.2 |          6.4 |
+| 30 | tennessee            |   11 | Solid Rep  | R+14  |        39   |        52.8 |          8.2 |
+| 31 | texas                |   38 | Lean Rep   | R+8   |        43.6 |        47.5 |          8.8 |
+| 32 | utah                 |    6 | Likely Rep | R+20  |        38.5 |        46.9 |         14.6 |
+| 33 | virginia             |   13 | Likely Dem | D+1   |        50.7 |        39   |         10.3 |
+| 34 | washington           |   12 | Solid Dem  | D+7   |        59.5 |        30.3 |         10.2 |
+| 35 | wisconsin            |   10 | Lean Dem   | EVEN  |        47.8 |        43.2 |          9   |
+| 36 | district of columbia |    3 | Solid Dem  | D+43  |       nan   |       nan   |        nan   |
+| 37 | hawaii               |    4 | Solid Dem  | D+18  |       nan   |       nan   |        nan   |
+| 38 | idaho                |    4 | Solid Rep  | R+19  |       nan   |       nan   |        nan   |
+| 39 | illinois             |   20 | Solid Dem  | D+7   |       nan   |       nan   |        nan   |
+| 40 | louisiana            |    8 | Solid Rep  | R+11  |       nan   |       nan   |        nan   |
+| 41 | maryland             |   10 | Solid Dem  | D+12  |       nan   |       nan   |        nan   |
+| 42 | nebraska             |    5 | Solid Rep  | R+14  |       nan   |       nan   |        nan   |
+| 43 | north dakota         |    3 | Solid Rep  | R+17  |       nan   |       nan   |        nan   |
+| 44 | oklahoma             |    7 | Solid Rep  | R+20  |       nan   |       nan   |        nan   |
+| 45 | oregon               |    7 | Solid Dem  | D+5   |       nan   |       nan   |        nan   |
+| 46 | rhode island         |    4 | Solid Dem  | D+10  |       nan   |       nan   |        nan   |
+| 47 | south dakota         |    3 | Solid Rep  | R+14  |       nan   |       nan   |        nan   |
+| 48 | vermont              |    3 | Solid Dem  | D+15  |       nan   |       nan   |        nan   |
+| 49 | west virginia        |    5 | Solid Rep  | R+19  |       nan   |       nan   |        nan   |
+| 50 | wyoming              |    3 | Solid Rep  | R+25  |       nan   |       nan   |        nan   |
 
 
 # About this Project 
