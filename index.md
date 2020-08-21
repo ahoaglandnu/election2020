@@ -2,7 +2,7 @@
 
 ![candidates](https://raw.githubusercontent.com/ahoaglandnu/election2020/master/graphics/election2020.png)
 
-**Last updated**: August 17, 2020
+**Last updated**: August 20, 2020
 
 ## TL;DR Scenarios
 
@@ -20,7 +20,7 @@
 | Candidate      | Strong     | Likely     |   Total     |
 |:---------------|:-----------|:-----------|------------:|
 | Biden          | 193        | 24         |        217  | 
-| Trump          | 246        | 75         |        **321**  | 
+| Trump          | 256        | 65         |        **321**  | 
 
 
 
@@ -58,7 +58,7 @@ Biden Solid + Likely States 246
 **Link to Interactive graphic**  
 [Biden Solid and Likely States](https://ahoaglandnu.github.io/biden_no_undecideds.html)
 
-![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden_0817.png)
+![biden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/biden_0820.png)
 
 
 
@@ -72,7 +72,7 @@ Trump Solid + Likely States 105
 **Link to Interactive graphic**  
 [Trump Solid and Likely States](https://ahoaglandnu.github.io/trump_no_undecideds.html)
 
-![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump_0817.png)
+![trump](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/trump_0820.png)
 
 
 
@@ -88,12 +88,12 @@ The table below can be considered the "path to victory" states as both campaigns
 |  1 | florida        |   29 | Toss Up    | R+2   |        50.2 |        44.5 |          5.4 |
 |  2 | georgia        |   16 | Toss Up    | R+5   |        45.1 |        47.3 |          7.7 |
 |  3 | iowa           |    6 | Lean Rep   | R+3   |        44.5 |        46   |          9.5 |
-|  4 | michigan       |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9.1 |
-|  5 | minnesota      |   10 | Lean Dem   | D+1   |        49.4 |        43.2 |          7.3 |
+|  4 | michigan       |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9   |
+|  5 | minnesota      |   10 | Lean Dem   | D+1   |        47.9 |        45.5 |          6.6 |
 |  6 | nevada         |    6 | Likely Dem | D+1   |        48   |        43.7 |          8.3 |
 |  7 | north carolina |   15 | Toss Up    | R+3   |        46.5 |        47.4 |          6.1 |
 |  8 | ohio           |   18 | Lean Rep   | R+3   |        47.8 |        45   |          7.2 |
-|  9 | pennsylvania   |   20 | Lean Dem   | EVEN  |        49.5 |        43.5 |          7   |
+|  9 | pennsylvania   |   20 | Lean Dem   | EVEN  |        49.5 |        43.6 |          6.9 |
 | 10 | utah           |    6 | Likely Rep | R+20  |        38.5 |        46.9 |         14.6 |
 | 11 | wisconsin      |   10 | Lean Dem   | EVEN  |        47.8 |        43.2 |          9   |
 
@@ -104,8 +104,8 @@ The table below can be considered the "path to victory" states as both campaigns
 
 The graphic below assumes **all** undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
 
-Trump Solid States 246   
-Trump Likely States 75  
+Trump Solid States 256   
+Trump Likely States 65  
 Trump Solid + Likely States **321**     
 
 Biden Solid States 193  
@@ -116,7 +116,7 @@ Biden Solid + Likely States 217
 **Link to Interactive graphic**  
 [Hidden Trump Vote Scenario](https://ahoaglandnu.github.io/hidden_trump.html)   
 
-![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden_0817.png)
+![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden_0820.png)
 
 
 
@@ -136,7 +136,7 @@ Biden Solid + Likely States **337**
 **Link to Interactive graphic**   
 [Randomized undecided voters](https://ahoaglandnu.github.io/random_undecided.html)  
 
-![random](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/random_0817.png)
+![random](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/random_0820.png)
 
 
 
@@ -156,7 +156,7 @@ Biden Solid + Likely States **308**
 **Link to Interactive graphic**   
 [PVI undecided voters](https://ahoaglandnu.github.io/pvi.html)
 
-![pvi](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/pvi_0817.png)
+![pvi](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/pvi_0820.png)
 
 ## Updated Weighted Polls, Cook Political Report Assessment, and Partisan Voter Index
 
@@ -177,24 +177,24 @@ Biden Solid + Likely States **308**
 | 11 | iowa                 |    6 | Lean Rep   | R+3   |        44.5 |        46   |          9.5 |
 | 12 | kansas               |    6 | Solid Rep  | R+13  |        40.6 |        49.6 |          9.8 |
 | 13 | kentucky             |    8 | Solid Rep  | R+15  |        39.7 |        53.3 |          7   |
-| 14 | maine                |    4 | Likely Dem | D+3   |        51.6 |        39.3 |          9.1 |
-| 15 | massachusetts        |   11 | Solid Dem  | D+12  |        62.9 |        29.4 |          7.7 |
-| 16 | michigan             |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9.1 |
-| 17 | minnesota            |   10 | Lean Dem   | D+1   |        49.4 |        43.2 |          7.3 |
+| 14 | maine                |    4 | Likely Dem | D+3   |        51.6 |        39.2 |          9.1 |
+| 15 | massachusetts        |   11 | Solid Dem  | D+12  |        62.9 |        29.4 |          7.6 |
+| 16 | michigan             |   16 | Lean Dem   | D+1   |        49.1 |        41.9 |          9   |
+| 17 | minnesota            |   10 | Lean Dem   | D+1   |        47.9 |        45.5 |          6.6 |
 | 18 | mississippi          |    6 | Solid Rep  | R+9   |        41   |        56   |          3   |
 | 19 | missouri             |   10 | Solid Rep  | R+9   |        43.2 |        50.2 |          6.7 |
 | 20 | montana              |    3 | Likely Rep | R+11  |        42   |        52.2 |          5.8 |
 | 21 | nevada               |    6 | Likely Dem | D+1   |        48   |        43.7 |          8.3 |
-| 22 | new hampshire        |    4 | Lean Dem   | EVEN  |        52.3 |        40.7 |          7   |
+| 22 | new hampshire        |    4 | Lean Dem   | EVEN  |        52.5 |        40.8 |          6.7 |
 | 23 | new jersey           |   14 | Solid Dem  | D+7   |        55   |        34.5 |         10.5 |
 | 24 | new mexico           |    5 | Solid Dem  | D+3   |        53.7 |        43.7 |          2.7 |
-| 25 | new york             |   29 | Solid Dem  | D+11  |        55.7 |        32   |         12.3 |
+| 25 | new york             |   29 | Solid Dem  | D+11  |        55.7 |        32   |         12.4 |
 | 26 | north carolina       |   15 | Toss Up    | R+3   |        46.5 |        47.4 |          6.1 |
 | 27 | ohio                 |   18 | Lean Rep   | R+3   |        47.8 |        45   |          7.2 |
-| 28 | pennsylvania         |   20 | Lean Dem   | EVEN  |        49.5 |        43.5 |          7   |
-| 29 | south carolina       |    9 | Likely Rep | R+8   |        43.3 |        50.3 |          6.4 |
+| 28 | pennsylvania         |   20 | Lean Dem   | EVEN  |        49.5 |        43.6 |          6.9 |
+| 29 | south carolina       |    9 | Likely Rep | R+8   |        43.3 |        50.2 |          6.4 |
 | 30 | tennessee            |   11 | Solid Rep  | R+14  |        39   |        52.7 |          8.3 |
-| 31 | texas                |   38 | Lean Rep   | R+8   |        43.5 |        47.6 |          8.9 |
+| 31 | texas                |   38 | Lean Rep   | R+8   |        43.5 |        47.7 |          8.8 |
 | 32 | utah                 |    6 | Likely Rep | R+20  |        38.5 |        46.9 |         14.6 |
 | 33 | virginia             |   13 | Likely Dem | D+1   |        50.7 |        39   |         10.3 |
 | 34 | washington           |   12 | Solid Dem  | D+7   |        59.5 |        30.2 |         10.3 |
