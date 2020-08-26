@@ -51,8 +51,8 @@ In the two graphics below, we have states that are considered strong or likely s
 
 ### Biden
 
-Biden Solid States 189
-Biden Likely States 44
+Biden Solid States 189  
+Biden Likely States 44  
 Biden Solid + Likely States 233   
 
 **Link to Interactive graphic**  
@@ -65,8 +65,8 @@ Biden Solid + Likely States 233
 
 ### Trump
 
-Trump Solid States 61
-Trump Likely States 44
+Trump Solid States 61  
+Trump Likely States 44  
 Trump Solid + Likely States 105      
 
 **Link to Interactive graphic**  
@@ -103,19 +103,19 @@ The table below can be considered the "path to victory" states as both campaigns
 
 The graphic below assumes **all** undecided voters will vote for Trump. This scenario is the "hidden Trump vote" or "shy Trump supporter" in polling. 
 
-Trump Solid States **285**
-Trump Likely States 36
-Trump Solid + Likely States **321**
+Trump Solid States **285**  
+Trump Likely States 36  
+Trump Solid + Likely States **321**  
 
-Biden Solid States 193
-Biden Likely States 24
+Biden Solid States 193  
+Biden Likely States 24  
 Biden Solid + Likely States 217  
 
 
 **Link to Interactive graphic**  
 [Hidden Trump Vote Scenario](https://ahoaglandnu.github.io/hidden_trump.html)   
 
-![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden_0825.png)
+![hidden](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/hidden_0826.png)
 
 
 
@@ -124,18 +124,18 @@ Biden Solid + Likely States 217
 
 The graphic below randomly distributed undecided voters for each state in 20,000 simulations per state.
 
-Trump Solid States 111
-Trump Likely States 75
-Trump Solid + Likely States 186
+Trump Solid States 111  
+Trump Likely States 75  
+Trump Solid + Likely States 186  
 
-Biden Solid States 253
-Biden Likely States 99
-Biden Solid + Likely States **352** 
+Biden Solid States 253  
+Biden Likely States 99  
+Biden Solid + Likely States **352**   
 
 **Link to Interactive graphic**   
 [Randomized undecided voters](https://ahoaglandnu.github.io/random_undecided.html)  
 
-![random](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/random_0825.png)
+![random](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/random_0826.png)
 
 
 
@@ -144,18 +144,18 @@ Biden Solid + Likely States **352**
 
 The graphic below uses the PVI to determine how to distribute undecided voters for each state in 20,000 simulations per state. This is the equivalent of a _Polls Plus_ model.
 
-Trump Solid States 212
-Trump Likely States 47
-Trump Solid + Likely States 259
+Trump Solid States 212  
+Trump Likely States 47  
+Trump Solid + Likely States 259  
 
-Biden Solid States 253
-Biden Likely States 26
+Biden Solid States 253  
+Biden Likely States 26  
 Biden Solid + Likely States **279**   
 
 **Link to Interactive graphic**   
 [PVI undecided voters](https://ahoaglandnu.github.io/pvi.html)
 
-![pvi](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/pvi_0825.png)
+![pvi](https://raw.githubusercontent.com/ahoaglandnu/election2020/gh-pages/images/pvi_0826.png)
 
 ## Updated Weighted Polls, Cook Political Report Assessment, and Partisan Voter Index
 
