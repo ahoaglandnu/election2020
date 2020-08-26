@@ -215,6 +215,8 @@ Biden Solid + Likely States **279**
 | 50 | wyoming              |    3 | Solid Rep  | R+25  |       nan   |       nan   |        nan   |
 
 
+
+
 # About this Project 
 
 Quite a lot has been written about 2016 election forecasts, polls, and the [influence](https://www.dartmouth.edu/~seanjwestwood/papers/aggregator.pdf) they may have had on voter behavior. A good friend and I were also caught up in the [hype around forecast models](https://slate.com/news-and-politics/2016/11/how-will-we-know-if-nate-silver-was-right.html) and which one would be the most accurate. We all know how that turned out. 
