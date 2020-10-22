@@ -2,7 +2,28 @@
 
 ![candidates](https://raw.githubusercontent.com/ahoaglandnu/election2020/master/graphics/election2020.png)
 
-**Last updated**: October 8, 2020
+**Last updated**: October 22, 2020
+
+# Why is 2020 Different from 2016?
+
+Simple answer is that there is a smaller percentage of undecided and 3rd party voters. Here is a table comparing polling averages from 2016 and 2020 in potential swing states.
+
+|    | State   |   Biden (D) |   Trump (R) |   Undecided & 3rd Party 2020 |   Clinton (D) |   Trump (R) |   Undecided & 3rd Party 2016 |
+|---:|:--------|------------:|--------------:|-----------------------------:|--------------:|--------------:|-----------------------------:|
+|  0 | North Carolina      |        48.8 |          46.5 |                          4.7 |          45.5 |          46.5 |                          8   |
+|  1 | New Hampshire      |        53.4 |          42.4 |                          4.2 |          43.3 |          42.7 |                         14   |
+|  2 | Texas      |        45.5 |          49.5 |                          5   |          38   |          50   |                         12   |
+|  4 | Florida      |        48.9 |          46.8 |                          4.3 |          46.4 |          46.6 |                          7   |
+|  5 | Arizona      |        49.5 |          46.3 |                          4.2 |          42.3 |          46.3 |                         11.4 |
+|  6 | Wisconsin      |        49.3 |          44.7 |                          6   |          46.8 |          40.3 |                         12.9 |
+|  7 | Ohio      |        46.2 |          46.8 |                          7   |          42.3 |          45.8 |                         11.9 |
+|  8 | Pennsylvania      |        49.5 |          44.6 |                          5.9 |          46.2 |          44.3 |                          9.5 |
+| 12 | Michigan      |        50.4 |          42.6 |                          7   |          45.4 |          42   |                         12.6 |
+| 13 | Iowa      |        47.2 |          46.4 |                          6.4 |          41.3 |          44.3 |                         14.4 |
+| 14 | Virginai      |        51.7 |          40.3 |                          8   |          47.3 |          42.3 |                         10.4 |
+| 15 | Nevada      |        49   |          43.8 |                          7.2 |          45   |          45.8 |                          9.2 |
+| 16 | Georgia      |        47.5 |          46.3 |                          6.2 |          44.4 |          49.2 |                          6.4 |
+
 
 ## TL;DR Scenarios
 
