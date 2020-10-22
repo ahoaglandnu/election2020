@@ -20,7 +20,7 @@ Simple answer is that there is a smaller percentage of undecided and 3rd party v
 |  8 | Pennsylvania      |        49.5 |          44.6 |                          5.9 |          46.2 |          44.3 |                          9.5 |
 | 12 | Michigan      |        50.4 |          42.6 |                          7   |          45.4 |          42   |                         12.6 |
 | 13 | Iowa      |        47.2 |          46.4 |                          6.4 |          41.3 |          44.3 |                         14.4 |
-| 14 | Virginai      |        51.7 |          40.3 |                          8   |          47.3 |          42.3 |                         10.4 |
+| 14 | Virginia      |        51.7 |          40.3 |                          8   |          47.3 |          42.3 |                         10.4 |
 | 15 | Nevada      |        49   |          43.8 |                          7.2 |          45   |          45.8 |                          9.2 |
 | 16 | Georgia      |        47.5 |          46.3 |                          6.2 |          44.4 |          49.2 |                          6.4 |
 
