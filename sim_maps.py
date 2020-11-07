@@ -5,9 +5,8 @@ import random
 random.seed(2020)
 
 print('Update as of:', datetime.datetime.now())
-filename = 'https://raw.githubusercontent.com/ahoaglandnu/election2020/master/results/results_' + datetime.datetime.now().strftime("%Y%m%d") + '.csv'
+filename = 'results_' + datetime.datetime.now().strftime("%Y%m%d") + '.csv'
 df = pd.read_csv(filename)
-print(df[['State','ec','cook','polls','Biden_avg','Trump_avg','undecideds']].to_markdown())
 states = {
         'AK': 'Alaska',
         'AL': 'Alabama',
@@ -368,7 +367,6 @@ fig.update_layout(
 
 fig.write_html("pvi.html")
 fig.write_image('pvi_' + datetime.datetime.now().strftime("%m%d") + '.png')
-fig.show()
 df["biden_pvi_prob"] = pd.to_numeric(df["biden_pvi_prob"])
 df["trump_pvi_prob"] = pd.to_numeric(df["trump_pvi_prob"])
 df['ec'] = pd.to_numeric(df['ec'])
